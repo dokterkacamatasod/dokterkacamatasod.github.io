@@ -1,0 +1,759 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Sans-serif;
+    background: #ffffff;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Headline */
+
+header {
+    width: 100%;
+    max-width: 1366px;
+    height: 654px;
+    max-height: 654px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+}
+
+.nav-lp {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.nav-lp h3 {
+    font-family: 'Montserrat SemiBold', Sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 0 10px;
+}
+
+.nav-lp a {
+    color: black;
+    font-family: 'Montserrat', Sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.headline-lp {
+    width: 100%;
+    max-width: 1366px;
+    background-image: url(../img/bg-home-fix.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+
+.headline-lp img {
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+}
+
+.headline-lp h1 {
+    position: relative;
+    left: 40px;
+    bottom: 100px;
+    text-align: left;
+    font-family: 'Montserrat ExtraBold', Sans-serif;
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: black
+}
+
+.headline-lp h3 {
+    position: relative;
+    left: 40px;
+    bottom: 120px;
+    text-align: left;
+    font-family: 'Montserrat SemiBold', Sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.btn {
+    position: relative;
+    left: 40px;
+    bottom: 110px;
+    cursor: pointer;
+    display: inline-block;
+    border: solid 2px;
+    font-weight: bold;
+    padding: 12px 50px;
+    border-radius: 15px;
+    background: #ffffff;
+    border-color: #000000;
+    color: #000000;
+    font-family: 'Montserrat', Sans-serif;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
+
+/* Headline */
+
+/* Exellence */
+.exe {
+    width: 100%;
+    max-width: 1366px;
+    height: 500px;
+    max-height: 500px;
+    background-color: #ffffff;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.exe img {
+    margin: auto;
+}
+
+/* Exellence */
+
+/* Lens Description */
+.lens-desc {
+    width: 100%;
+    max-width: 1366px;
+    height: 1568px;
+    max-height: 1568px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.lens-desc .cont-desc {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, max-content);
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.lens-desc .cont-desc .box {
+    width: 100%;
+    max-width: 1250px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px auto 20px;
+}
+
+.lens-desc .cont-desc .box .gambar {
+    margin: auto;
+}
+
+.lens-desc .cont-desc .box .detail {
+    margin: auto;
+}
+
+.lens-desc .cont-desc .box .detail h1, p, .btn-services {
+    margin-left: 20px; 
+}
+
+.lens-desc .cont-desc .box .detail h1 {
+    font-family: 'Montserrat ExtraBold', Sans-serif;
+    font-size: 55px;
+    color: black;
+    text-align: left;
+}
+
+.lens-desc .cont-desc .box .detail p {
+    font-family: 'Montserrat', serif;
+    font-size: 24px;
+    text-align: left;
+    padding: 15px 50px 15px 0;
+    margin-bottom: 10px;
+}
+
+.lens-desc .cont-desc .box .detail .btn-services {
+    cursor: pointer;
+    display: inline-block;
+    border: solid 2px;
+    border-color: #000000;
+    font-weight: bold;
+    padding: 12px 50px;
+    border-radius: 15px;
+    background: #ffffff;
+    color: #000000;
+    font-family: 'Montserrat', Sans-serif;
+    font-size: 16px;
+}
+
+.lens-desc .cont-desc .box .detail .btn-services:hover {
+    background: black;
+    color: white;
+}
+
+/* Lens Description */
+
+/* Portofolio */
+.testi {
+    width: 100%;
+    max-width: 1366px;
+    height: 958px;
+    max-height: 1958px;
+    background-color: white;
+    margin: auto;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+}
+
+.testi .judul {
+    width: 100%;
+    max-width: 1100px;
+    background-color: white;
+    margin: auto;
+}
+
+.testi .judul h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    border: 0;
+    border-color: black;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.testi .judul hr {
+    width: 100px;
+    margin: auto;
+}
+
+.testi .cont-testi {
+    width: 100%;
+    max-width: 1366px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    grid-template-rows: max-content;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.testi .cont-testi .box .pict-testi {
+    width: 430px;
+    height: 430px;
+    overflow: hidden;
+    position: relative;
+}
+
+.testi .cont-testi .box {
+    position: relative;
+}
+
+.testi .cont-testi .box .pict-testi img {
+    max-width: 100%;
+    transition: 1s;
+}
+
+.testi .cont-testi .box:hover .pict-testi img {
+    transform: scale(1.1);
+}
+
+/* Portofolio */
+
+/* Contact */
+.contact {
+    width: 100%;
+    max-width: 1366px;
+    height: 480px;
+    max-height: 480px;
+    grid-template-rows: max-content 1fr;
+    margin: auto;
+}
+
+.contact .judul {
+    width: 100%;
+    max-width: 1100px;
+    margin: 50px auto 0;
+}
+
+.contact .judul h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.contact .judul hr {
+    width: 70px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+}
+
+.contact .container-4 {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, max-content);
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.contact .container-4 .profile {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.contact .container-4 .profile .card {
+    padding: 15px;
+}
+
+.contact .container-4 .profile .card .box {
+    padding: 30px;
+    margin: auto;
+}
+
+.contact .container-4 .profile .card .box i.fas {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.contact .container-4 .profile .card .box h3 {
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact .container-4 .profile .card .box .keterangan {
+    color: black;
+    text-align: center;
+}
+
+.contact .container-4 .address {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: center;
+}
+
+.contact .container-4 .address .card {
+    padding: 10px;
+}
+
+.contact .container-4 .address .card .box {
+    padding: 10px;
+    margin: auto;
+}
+
+.contact .container-4 .address .card .box i.fas {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.contact .container-4 .address .card .box h3 {
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact .container-4 .address .card .box .keterangan {
+    color: black;
+    text-align: center;
+}
+
+/* Contact */
+
+/* Copyright */
+
+.copyright {
+    background-color: white;
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.copyright .cp-right {
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.copyright .cp-right .instagram .fab {
+    color: black;
+    font-size: 30px;
+}
+
+.copyright .cp-right .copyrightContent {
+    font-family: Sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-top: 5px;
+}
+
+.copyright .cp-right .copyrightContent i {
+    padding-right: 3px;
+}
+
+/* Copyright */
+
+/*Responsive*/
+
+@media(min-width: 768px) and (max-width: 1024px) {
+
+    header {
+        height: 530px;
+        margin: auto;
+    }
+    
+    .nav-lp {
+        height: 50px;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .nav-lp h3 {
+        font-size: 14px;
+    }
+
+    .nav-lp a {
+        font-size: 14px;
+    }
+    
+    .headline-lp {
+        width: 100%;
+        height: 480px;
+        background-image: url(../img/bg-home-fix.png);
+        background-size: 1024px;
+    }
+
+    .headline-lp img {
+        width: 250px;
+        height: auto;
+        left: 120px;
+    }
+
+    .headline-lp h1 {
+        bottom: 80px;
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+
+    .headline-lp h3 {
+        bottom: 80px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        bottom: 80px;
+        padding: 12px 40px;
+        font-size: 12px;
+    }
+
+    .lens-desc .cont-desc .box {
+        margin: 0 auto 10px;
+        max-width: 1040px;
+    }
+
+    .lens-desc .cont-desc .box .gambar img {
+        width: 500px;
+        height: auto;
+    }
+
+    .lens-desc .cont-desc .box .detail h1, p, .btn-services{
+        margin-left: 15px;           
+    }
+
+    .lens-desc .cont-desc .box .detail h1 {
+        font-size: 45px;
+    }
+
+    .lens-desc .cont-desc .box .detail p {
+        font-size: 22px;
+    }
+
+    .testi {
+        height: 1450px;
+    }
+
+    .testi .cont-testi {
+        grid-template-columns: repeat(2, max-content);
+    }
+
+    .contact {
+        height: 650px;
+        max-height: 650px;
+    }
+
+    .contact .container-4 .address {
+        grid-template-columns: repeat(2, max-content);
+    }
+
+}
+
+@media(min-width: 500px) and (max-width: 768px) {
+    /* Header */
+    header {
+        height: 415px;
+    }
+
+    .nav-lp {
+        height: 50px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .nav-lp h3 {
+        font-size: 14px;
+    }
+
+    .nav-lp span {
+        font-size: 14px;
+    }
+
+    .nav-lp a {
+        font-size: 14px;
+    }
+
+    .headline-lp {
+        height: 365px;
+        background-image: url(../img/bg-home-fix.png);
+        background-size: 768px;
+    }
+
+    .headline-lp img {
+        width: 200px;
+        height: auto;
+        left: 140px;
+    }
+
+    .headline-lp h1 {
+        bottom: 80px;
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+
+    .headline-lp h3 {
+        bottom: 80px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        bottom: 80px;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .exe img {
+        width: 650px;
+        height: auto;
+    }
+
+    .lens-desc .cont-desc .box {
+        margin: 0 auto 10px;
+    }
+
+    .lens-desc .cont-desc .box .gambar img {
+        width: 450px;
+        height: auto;
+    }
+
+    .lens-desc .cont-desc .box .detail h1, p, .btn-services{
+        margin-left: 15px;        
+    }
+
+    .lens-desc .cont-desc .box .detail h1 {
+        font-size: 36px;
+    }
+
+    .lens-desc .cont-desc .box .detail p {
+        font-size: 18px;
+    }
+
+    .testi {
+        height: 1200px;
+    }
+
+    .testi .cont-testi {
+        grid-template-columns: repeat(2, max-content);
+    }
+
+    .testi .cont-testi .box .pict-testi {
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    /* Header */
+    header {
+        height: 237.5px;
+    }
+
+    .nav-lp {
+        height: 50px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .nav-lp h3 {
+        font-size: 10px;
+    }
+
+    .nav-lp a {
+        font-size: 10px;
+    }
+
+    .headline-lp {
+        width: auto;
+        height: 195px;
+        background-image: url(../img/bg-home-fix.PNg);
+        background-size: 395px;
+    }
+
+    .headline-lp img {
+        width: 120px;
+        height: 120px;
+        display: inline-block;
+        position: relative;
+        left: 65px;
+        bottom: 5px;
+    }
+
+    .headline-lp h1 {
+        bottom: 40px;
+        left: 10px;
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+
+    .headline-lp h3 {
+        bottom: 45px;
+        left: 10px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        bottom: 45px;
+        left: 10px;
+        padding: 6px 8px;
+        font-size: 7px;
+    }
+
+    /* Header */
+    .exe {
+        height: 200px;
+    }
+
+    .exe img {
+        width: 350px;
+        height: auto;
+    }
+
+    .lens-desc .cont-desc .box {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .lens-desc .cont-desc .box .gambar img {
+        width: 350px;
+        height: auto;
+    }
+
+    .lens-desc .cont-desc .box .detail h1, p, .btn-services {
+        margin-left: 0;
+    }
+
+    .lens-desc .cont-desc .box .detail h1 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .lens-desc .cont-desc .box .detail p {
+        font-size: 18px;
+        text-align: center;
+        margin: 0 auto 10px;
+        padding: 10px;
+    }
+
+    .lens-desc .cont-desc .box .detail .btn-services {
+        position: relative;
+        left: 75px;
+        right: 0;
+    }
+
+    .testi {
+        height: 2200px;
+        max-height: 3000px;
+    }
+
+    .testi .cont-testi {
+        grid-template-columns: repeat(1, max-content);
+    }
+
+    .testi .cont-testi .box .pict-testi {
+        width: 330px;
+        height: auto;
+    }
+
+    /* Contact */
+    .contact {
+        height: 1280px;
+        max-height: 1280px;
+    }
+
+    .contact .container-4 .profile {
+        grid-template-columns: 1fr;
+    }
+
+    .contact .container-4 .address {
+        grid-template-columns: max-content;
+        grid-template-rows: repeat(4, max-content);
+    }
+
+    .copyright {
+        height: 70px;
+    }
+
+    .copyright .cp-right .copyrightContent {
+        font-size: 13px;
+    }
+}
+}
