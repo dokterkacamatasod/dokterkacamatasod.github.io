@@ -113,6 +113,55 @@ header {
 
 /* Headline */
 
+/* Promo */
+
+.promo-op {
+    width: 100%;
+    max-width: 1366px;
+    height: 878px;
+    max-height: 1958px;
+    background-color: white;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+}
+
+.promo-op .cont-promo {
+    width: 100%;
+    max-width: 1366px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    grid-template-rows: max-content;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.promo-op .cont-promo .box .pict-promo {
+    width: 430px;
+    height: 430px;
+    overflow: hidden;
+    position: relative;
+}
+
+.promo-op .cont-promo .box {
+    position: relative;
+}
+
+.promo-op .cont-promo .box .pict-promo img {
+    max-width: 100%;
+    transition: 1s;
+}
+
+.promo-op .cont-promo .box:hover .pict-promo img {
+    transform: scale(1.1);
+}
+
+/* Promo */
+
 /* Exellence */
 .exe {
     width: 100%;
@@ -120,7 +169,7 @@ header {
     height: 500px;
     max-height: 500px;
     background-color: #ffffff;
-    margin: 50px auto 0;
+    margin: 30px auto 0;
     display: flex;
     justify-content: center;
 }
@@ -447,11 +496,11 @@ header {
     }
     
     .nav-lp h3 {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .nav-lp a {
-        font-size: 14px;
+        font-size: 18px;
     }
     
     .headline-lp {
@@ -483,6 +532,14 @@ header {
         bottom: 80px;
         padding: 12px 40px;
         font-size: 12px;
+    }
+
+    .promo-op {
+        height: 1450px;
+    }
+
+    .promo-op .cont-promo {
+        grid-template-columns: repeat(2, max-content);
     }
 
     .lens-desc .cont-desc .box {
@@ -578,6 +635,19 @@ header {
         bottom: 80px;
         padding: 10px 20px;
         font-size: 12px;
+    }
+
+    .promo-op {
+        height: 1100px;
+    }
+
+    .promo-op .cont-promo {
+        grid-template-columns: repeat(2, max-content);
+    }
+
+    .promo-op .cont-promo .box .pict-promo {
+        width: 350px;
+        height: auto;
     }
 
     .exe img {
@@ -678,6 +748,21 @@ header {
     }
 
     /* Header */
+
+    .promo-op {
+        height: 2100px;
+        max-height: 3000px;
+    }
+
+    .promo-op .cont-promo {
+        grid-template-columns: repeat(1, max-content);
+    }
+
+    .promo-op .cont-promo .box .pict-promo {
+        width: 330px;
+        height: auto;
+    }
+
     .exe {
         height: 200px;
     }
