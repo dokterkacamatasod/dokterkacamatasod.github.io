@@ -185,7 +185,7 @@ header {
     width: 100%;
     max-width: 1366px;
     height: 1568px;
-    max-height: 1568px;
+    max-height: 1650px;
     background-color: #ffffff;
     margin: auto;
 }
@@ -745,6 +745,7 @@ header {
         left: 10px;
         padding: 6px 8px;
         font-size: 7px;
+        border-radius: 8px;
     }
 
     /* Header */
@@ -772,14 +773,27 @@ header {
         height: auto;
     }
 
+    .lens-desc {
+        height: 1600px;
+    }
+
     .lens-desc .cont-desc .box {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            'gambar'
+            'detail'
+        ;
     }
 
     .lens-desc .cont-desc .box .gambar img {
         width: 350px;
         height: auto;
+        grid-area: gambar;
+    }
+
+    .lens-desc .cont-desc .box .detail {
+        grid-area: detail;
     }
 
     .lens-desc .cont-desc .box .detail h1, p, .btn-services {
