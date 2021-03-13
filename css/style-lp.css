@@ -722,7 +722,7 @@ header {
         height: 140px;
         display: inline-block;
         position: relative;
-        left: 106px;
+        left: 118px;
         bottom: 230px;
     }
 
@@ -736,7 +736,7 @@ header {
 
     .headline-lp h3 {
         bottom: 265px;
-        left: 30px;
+        left: 40px;
         font-size: 10px;
         text-align: center;
         margin-bottom: 10px;
@@ -744,7 +744,7 @@ header {
 
     .btn {
         bottom: 265px;
-        left: 138px;
+        left: 145px;
         padding: 5px 15px;
         font-size: 7px;
         border-radius: 6px;
